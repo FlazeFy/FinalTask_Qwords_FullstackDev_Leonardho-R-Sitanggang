@@ -32,6 +32,9 @@
         @include('components.breakline', ['total' => 4])
 
         @include('landing.search_domain')
+        @include('landing.main_services')
+        @include('landing.other_services')
+        @include('landing.package')
     </div>
 </body>
 </html>

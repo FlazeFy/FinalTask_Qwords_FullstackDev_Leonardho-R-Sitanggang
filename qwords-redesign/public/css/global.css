@@ -92,6 +92,13 @@
     font-size: var(--textXLG);
     margin-inline: auto;
 }
+.box-card {
+    text-align: start;
+    padding: var(--spaceLG);
+    border-radius: var(--roundedLG);
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
 .btn-primary {
     background: var(--primaryColor);
     border: none;
@@ -107,4 +114,17 @@
 input, select {
     border-radius: var(--roundedLG) !important;
     padding: var(--spaceXMD) var(--spaceLG) !important;
+}
+
+.normal-price {
+    color: var(--greyColor);
+    font-size: var(--textXLG);
+    margin-bottom: 0;
+    text-decoration: line-through;
+}
+.discount-price {
+    color: var(--primaryColor);
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: var(--textJumbo);
 }

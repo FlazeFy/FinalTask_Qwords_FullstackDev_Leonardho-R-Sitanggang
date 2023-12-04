@@ -2,19 +2,27 @@
     <div class="box-info text-white">
         <h3>Cari Nama Domainmu</h3>
         <p>Nama Domain digunakan untuk mempermudah pengunjung menuju ke situs Anda. Pilih nama domain yang paling mencerminkan bisnis, produk, atau layanan Anda.</p>
-        
-        <div class="d-inline-block">
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Cari nama domain Anda">
+    </div>
 
-            <select class="form-select" aria-label="Default select example">
-                <option selected>.id</option>
-                <option value="1">.com</option>
-                <option value="2">.info</option>
-            </select>
-
-            <button class="btn btn-dark" style="padding: var(--spaceXMD) var(--spaceJumbo)">Cari</button>
+    <div class="mx-auto" style="max-width: 1080px;">
+        <div class="row">
+            <div class="col-lg-8">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Cari nama domain Anda">
+            </div>
+            <div class="col-lg-2">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>.id</option>
+                    <option value="1">.com</option>
+                    <option value="2">.info</option>
+                </select>
+            </div>
+            <div class="col-lg-2">
+                <button class="btn btn-dark" style="padding: var(--spaceXMD) var(--spaceJumbo)">Cari</button>
+            </div>
         </div>
+    </div>
 
+    <div class="box-info text-white">
         @include('components.breakline', ['total' => 1])
         <div class="row">
             <div class="col">
