@@ -1,6 +1,6 @@
 @if($type == "dropdown_nav")
     <a class="nav_link" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">{{$main_title}} <i class="fa-solid fa-chevron-down"></i></a>
-    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <ul class="dropdown-menu mt-5" aria-labelledby="dropdownMenuLink">
         @foreach($sub_menu as $sm)
             <li>
                 <a class="dropdown-item" href="{{$sm['link']}}">

@@ -26,5 +26,12 @@
 <body>
     <!-- Navbar -->
     @include('components.navbar')
+
+    <div class="text-center">
+        @include('landing.main_about')
+        @include('components.breakline', ['total' => 4])
+
+        @include('landing.search_domain')
+    </div>
 </body>
 </html>

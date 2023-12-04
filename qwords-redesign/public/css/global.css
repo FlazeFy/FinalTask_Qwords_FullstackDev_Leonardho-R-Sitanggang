@@ -1,6 +1,6 @@
 :root {   
     /* Typography */
-    --textHuge : 78px;
+    --textHuge : 60px;
     --textXJumbo : 48px;
     --textJumbo : 26px;
     --textXLG : 18px;
@@ -77,4 +77,34 @@
     background: var(--primaryColor);
     color: var(--whiteColor);
     border-radius: var(--roundedSM);
+}
+
+.bg-primary {
+    background: var(--primaryColor);
+}
+
+.imp {
+    color: var(--primaryColor);
+    font-weight: bold;
+}
+.box-info {
+    max-width: 680px; 
+    font-size: var(--textXLG);
+    margin-inline: auto;
+}
+.btn-primary {
+    background: var(--primaryColor);
+    border: none;
+}
+.btn {
+    font-weight: 600;
+    border-radius: var(--roundedJumbo);
+}
+
+.bg-primary {
+    background: var(--primaryColor) !important;
+}
+input, select {
+    border-radius: var(--roundedLG) !important;
+    padding: var(--spaceXMD) var(--spaceLG) !important;
 }

@@ -48,6 +48,7 @@
 }
 .nav_link {
     color: var(--blackColor);
+    font-weight: 600;
 }
 .nav_link:hover {
     color: var(--primaryColor) !important;
